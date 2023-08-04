@@ -2,10 +2,9 @@ FROM bitnami/laravel
 
 WORKDIR /var/www/html
 
-COPY . .
-
-RUN composer install
-RUN php artisan key:generate
+COPY ./src .
+# RUN composer install
+# RUN php artisan key:generate
 
 EXPOSE 8000
 
