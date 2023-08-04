@@ -30,13 +30,7 @@ The provided `Dockerfile` uses the `bitnami/laravel` base image to build the Lar
 
 1. Open a terminal or command prompt and navigate to the root directory of your Laravel application.
 
-2. Build the Docker containers by running the following command:
-
-   ```bash
-   docker-compose build
-   ```
-
-3. Once the build process is complete, start the containers with the following command:
+2. Start the containers with the following command:
 
    ```bash
    docker-compose up -d
